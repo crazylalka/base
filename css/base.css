@@ -1,0 +1,365 @@
+header {
+    position: relative;
+    background-color: rgba(0, 37, 71, 1);
+    height: 850px;
+    padding-left: 10%;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+nav img {
+    width: 110px;
+    height: 42px;
+}
+
+.home {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+button {
+    background-color: white;
+    color: rgba(29, 146, 255, 1);
+    border-radius: 5px;
+    height: 43px;
+    /* border-color: rgba(29, 146, 255, 1); */
+}
+
+nav button:hover,
+p+button:hover {
+    background-color: rgba(29, 146, 255, 1);
+    color: white;
+}
+
+.blue {
+    color: rgba(29, 146, 255, 1);
+    font-weight: 400;
+}
+
+nav+p {
+    position: absolute;
+    top: 229px;
+}
+
+* {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+h1 {
+    position: absolute;
+    top: 261px;
+    color: white;
+    font-size: 60px;
+}
+
+span {
+    color: rgba(29, 146, 255, 1);
+}
+
+h1+p {
+    position: absolute;
+    top: 454px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+p span {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+}
+
+p+button {
+    position: absolute;
+    top: 552px;
+    width: 205px;
+}
+
+.nn {
+    position: absolute;
+    top: 552px;
+    left: 462px;
+    width: 205px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.nn:hover {
+    background-color: white;
+    color: rgba(0, 37, 71, 1);
+}
+
+button+p span {
+    color: white;
+    text-decoration: none;
+}
+
+button+p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    top: 659px;
+}
+
+p+img {
+    position: absolute;
+    left: 751.72px;
+    top: 100.98px;
+    transform: rotate(-16.64deg);
+    z-index: 1;
+}
+
+header img+img {
+    position: absolute;
+    left: 749px;
+    top: 428.75px;
+}
+
+.n11 {
+    width: 1145.58px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 130px;
+}
+
+.m1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 1044px;
+}
+
+.m2 {
+    width: 1225px;
+    position: absolute;
+    top: 392px;
+    left: 0px;
+}
+
+.g508 {
+    margin-left: 50px;
+    position: relative;
+}
+
+.g505 {
+    position: absolute;
+    top: 180px;
+    left: 409px;
+}
+
+.g505+section {
+    position: absolute;
+    top: 62px;
+    left: 916px;
+    width: 496px;
+    height: 470px;
+    display: block;
+}
+
+.img {
+    position: absolute;
+    left: 227px;
+}
+
+.g511 {
+    position: absolute;
+    left: 818px;
+}
+
+.trial {
+    position: absolute;
+    left: 227px;
+    top: 520px;
+    background-color: rgba(29, 146, 255, 1);
+    color: white;
+    width: 198px;
+}
+
+.more {
+    position: absolute;
+    top: 520px;
+    color: rgba(29, 146, 255, 1);
+}
+
+.f {
+    position: absolute;
+    top: 650px;
+    width: 100%;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 39px;
+}
+
+h2 span {
+    font-weight: bold;
+    color: black;
+}
+
+h2+p span {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+}
+
+.n {
+    position: absolute;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f {
+    top: 250px;
+}
+
+#s {
+    top: 320px;
+}
+
+#t {
+    top: 390px;
+}
+
+.m3 {
+    width: 100%;
+    height: 860px;
+    position: relative;
+    display: flex;
+}
+
+.n31 {
+    margin-left: 227px;
+    width: 472px;
+}
+
+.n31>button,
+.n31 button+button {
+    margin: 45px 25px 0 0;
+    width: 198px;
+}
+
+.free1 {
+    background-color: rgba(29, 146, 255, 1);
+    color: white;
+}
+
+.free1:hover {
+    background-color: white;
+    color: rgba(29, 146, 255, 1);
+}
+
+.read1:hover {
+    background-color: rgba(29, 146, 255, 1);
+    color: white;
+}
+
+.n32 {
+    width: 782px;
+    height: 723px;
+    position: absolute;
+    right: 0px;
+    background-image: url('/src/Rectangle 100 (2).png');
+    background-repeat: no-repeat;
+}
+
+.ellipse1 {
+    position: absolute;
+    right: 0px;
+}
+
+.g518 {
+    position: absolute;
+    right: 5px;
+    top: 10%;
+}
+
+.m4 {
+    width: 1146px;
+    height: 858px;
+    margin: 156px 0 0 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    font-size: 39px;
+}
+
+.n41 {
+    width: 100%;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.n41 section {
+    width: 226px;
+    height: 209px;
+}
+
+.m5 {
+    width: 1065px;
+    height: 767px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.n51 {
+    width: 100%;
+    height: 613px;
+    display: flex;
+    flex-direction: row;
+}
+
+.n51 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 33%;
+}
+
+.k {
+    position: unset;
+    color: black;
+    margin: 0%;
+}
+
+.black {
+    background-color: rgba(0, 37, 71, 1);
+    color: white;
+}
+
+.black h1 {
+    color: white;
+}
